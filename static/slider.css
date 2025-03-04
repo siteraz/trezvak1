@@ -1,0 +1,43 @@
+#app_slider_box { width: 353px; height: 600px; margin: auto; }
+
+#slider1_container { display: none; position: relative; margin: 0 auto; width: 353px; height: 600px; overflow: hidden; }
+
+.jssora11l, .jssora11r { display: block; position: absolute; /* size of arrow element */ width: 37px; height: 37px; cursor: pointer; background: url(slider/a21.png) no-repeat; overflow: hidden; }
+
+.jssora11l { background-position: -11px -41px; }
+
+.jssora11r { background-position: -71px -41px; }
+
+.jssora11l:hover { background-position: -131px -41px; }
+
+.jssora11r:hover { background-position: -191px -41px; }
+
+.jssora11l.jssora11ldn { background-position: -251px -41px; }
+
+.jssora11r.jssora11rdn { background-position: -311px -41px; }
+
+.jssorb05 { position: absolute; }
+
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av { position: absolute; /* size of bullet elment */ width: 16px; height: 16px; background: url(slider/b21.png) no-repeat; overflow: hidden; cursor: pointer; }
+
+.jssorb05 div { background-position: -7px -7px; }
+
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+
+.jssorb05 .av { background-position: -67px -7px; }
+
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+.sl-index-cap { position: absolute; top: 20px; left: 20px; }
+
+.sl-index-slides { position: absolute; left: 0px; top: 0px; width: 353px; height: 600px; overflow: hidden; }
+
+.on-text-box { padding: 2px 24px; background-color: rgba(255, 255, 255, 0.6); }
+
+.sl-index-loadcurt { filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; background-color: #EEE; top: 0px; left: 0px; width: 100%; height: 100%; }
+
+.sl-load-cell { display: table-cell; vertical-align: middle; margin: 0px auto; width: 64px; }
+
+@media screen and (max-width: 640px) { #app_slider_box, #slider1_container, .sl-index-slides { width: 256px; height: 434px; } }
+
+/*# sourceMappingURL=slider.css.map */
